@@ -1,13 +1,28 @@
 <ion-header>
   <ion-toolbar color="mycolor">
-    <ion-title>home</ion-title>
+    <ion-title>Home</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <div id="container">
-  <button ion-buttom [routerLink]="['/customers']" class="btn">Go to custumers</button>
+  <ion-grid fixed>
+    <ion-row>
+      <ion-col sizeLg="4" sizeMd="4" sizeXl="6" >
+        <div class="texto">Texto 1</div>
+      </ion-col>
+      <ion-col sizeLg="4" sizeMd="4" sizeXl="6">
+        <div class="texto">Texto 2</div>
+      </ion-col>
+    </ion-row>
 
-  </div>
+    <ion-row>
+      <ion-col sizeLg="4" sizeMd="4" sizeXl="6">
+        <div class="texto">Texto 2</div>
+      </ion-col>
+      <ion-col sizeLg="4"  sizeMd="4" sizeXl="6">
+        <div class="texto">Texto 3</div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
 

@@ -1,0 +1,17 @@
+<ion-header >
+  <ion-toolbar color="mycolor">
+    <ion-title>Cities</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-row>
+    <ion-col sizeXs="12" sizeLg="6" sizeMd="6" *ngFor="let city of cities">
+      <ion-card>
+        <img src="../../assets/cities-img/{{city.imagen}}" alt="{{city.nombre}}">
+        <div class="card-title">{{city.nombre}}</div>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-content>

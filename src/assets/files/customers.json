@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "nombre": "Han",
+      "estado": "Escucha, chico...",
+      "descripcion": "Un contrabandista astuto y piloto del Millennium Falcon.",
+      "imagen": "hombre.jpg"
+    },
+    {
+      "nombre": "Luke",
+      "estado": "Estoy aquí para rescatarte.",
+      "descripcion": "Un joven granjero que descubre su destino como Jedi.",
+      "imagen": "ella.jpg"
+    },
+    {
+      "nombre": "Leia",
+      "estado": "Ayúdame, Obi-Wan Kenobi.",
+      "descripcion": "Una princesa valiente y líder de la Rebelión.",
+      "imagen": "ela.jpg"
+    }
+  ]
+}

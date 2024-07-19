@@ -1,6 +1,9 @@
 ion-toolbar{
   background-color: var(--ion-color-mycolor );
 }
+ion-title{
+  color: black ;
+}
 .btn {
   background-color: var(--ion-color-mycolor-shade);
   color: black;
@@ -15,4 +18,10 @@ ion-toolbar{
   right: 20px;
   top: 50px;
   transform: translateY(-50%);
+}
+.texto{
+  background-color: rosybrown;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
